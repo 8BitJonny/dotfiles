@@ -60,7 +60,5 @@ alias path='echo -e ${PATH//:/\\n}'
 # Always try and open the file in an already existing vscode window
 alias code='code -r'
 
-# Short form for cloning my user's repos
-function ghc() {
-    gh repo clone 8BitJonny/"${1## }"
-}
+# Reload the bash config
+alias reload="source ~/.zprofile"
