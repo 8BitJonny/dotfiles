@@ -12,6 +12,7 @@ alias dp="cd ~/Projects"
 
 alias g="git"
 alias gst="git status"
+alias glo="git log --oneline -5"
 alias gmc="gitmoji -c"
 
 alias c="clear"
